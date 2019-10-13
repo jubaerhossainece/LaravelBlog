@@ -1,0 +1,29 @@
+
+.btn-secondary{
+    border: 0 !important;
+    transition-duration: 0.3s !important;
+    transition-property: background-color;
+}
+
+.btn-secondary:hover{
+    color: #fff !important;
+    background-color: darkgrey !important;
+}
+
+.btn{
+    border-radius: 3px !important;
+}
+
+.btn-danger{
+    background-color: #d1140a !important;
+}
+
+.btn-danger:hover{
+    color: white !important;
+    background-color: #f22116 !important;
+}
+
+.card-image{
+    height: 30vh;
+    width: auto;
+}
