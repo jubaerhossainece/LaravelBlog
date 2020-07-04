@@ -1,0 +1,306 @@
+*:focus{
+  outline: none !important;
+}
+
+input[type]{
+	padding: 0.2rem 0.7rem .3rem 0.7rem !important;
+	width: 100%;
+	border: 1px solid lightgray;
+	border-radius : 2px !important ;
+	transition : 0.3s !important;
+	background-color : #f5f2f2 !important;
+}
+
+input::placeholder{
+	font-size: 0.8rem;
+} 
+
+textarea::placeholder{
+	font-size: 0.8rem;
+}
+
+textarea{
+	border-radius : 2px !important ;
+	transition : 0.3s !important;
+	background-color : #f5f2f2 !important;
+}
+
+textarea:focus{
+	box-shadow: none !important;
+	border-color : lightgray !important ;
+	background-color: #fbfbfb !important;
+}
+
+input[type="date"] {
+	height : 2rem !important ;
+	border-radius : 2px !important ;
+	transition : 0.3s !important ;
+}
+input[type]:focus {
+	box-shadow: none !important;
+	border-color : lightgray !important ;
+	background-color: #fbfbfb !important;
+}
+input[type="search"] {
+	border : none;
+	box-shadow : none;
+}
+input[type="search"]:focus {
+	border : none;
+	box-shadow : 0 0 5px 1px #c9cdca !important ;
+}
+label {
+	font-weight : 600 !important ;
+	color : #3a3b3a;
+	margin-bottom : 0.3rem !important ;
+}
+input.date {
+	border : #dee2e6 solid 1px !important ;
+	border-radius : 2px !important ;
+}
+*:focus {
+	outline : 0 !important ;
+}
+.modal-title {
+	color : #696875;
+}
+.modal-header {
+	background-color : #eff3f9 !important ;
+	padding-top : 0.6rem !important ;
+	padding-bottom : 0.6rem !important ;
+}
+.modal-body {
+	padding-top : 0.4rem !important ;
+	padding-bottom : 0.4rem !important ;
+}
+.modal-footer {
+	margin : 0 !important ;
+	justify-content : space-between !important ;
+	padding : 0.8rem 1rem !important ;
+}
+.save-btn {
+	float : left !important ;
+}
+.close-btn {
+	float : right !important ;
+}
+
+.row {
+	padding : 0 !important ;
+	margin : 0 !important ;
+}
+.btn {
+	border : none !important ;
+	cursor: pointer;
+	background-color : #007BFF;
+	color : white;
+	padding : 0.15rem 0.7rem 0.25rem 0.7rem !important ;
+	border-radius : 2px !important ;
+	font-size : 1rem !important ;
+	font-weight : 600 !important ;
+	transition : all 0.2s linear !important ;
+}
+
+.btn:hover {
+	background-color : #0062cc;
+	box-shadow : 3px 3px 5px gray !important ;
+	color : #fff;
+}
+
+.btn:focus {
+	outline : none !important ;
+	border : 0 !important ;
+}
+
+.fa-plus {
+	padding-left : 2px;
+	font-size : 0.8rem !important ;
+}
+
+.fa-sync {
+	padding-left : 2px;
+	font-size : 0.8rem !important ;
+}
+
+.bg-white {
+	background-color : #fff !important ;
+}
+
+.navbar-laravel {
+	background-color : #fff;
+	// box-shadow : 0 2px 4px rgb(0, 0, 0, 0.04);
+}
+
+.loading-pos {
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	height : 70vh;
+	width : 100%;
+}
+
+.loading-btn {
+	background-color : lightgray;
+	color : #1F0303;
+	padding : 0.2rem 0.3rem;
+	border-radius : 2px;
+	border : none !important ;
+	text-align : center !important ;
+}
+
+.card-header {
+	border-radius : 3px 3px 0 0 !important ;
+}
+
+.login-card {
+	border-radius : 2px !important ;
+	box-shadow : 0 0 10px 0 lightgray !important ;
+}
+
+.login-card h5 {
+	font-weight : 600;
+	color : #615f5a;
+}
+
+.login-card-header {
+	padding : 0.7rem 0 0.3rem 1rem !important ;
+}
+
+.login-card-body {
+	padding : 0 2px 1rem 1px;
+}
+
+.register-card-body {
+	padding : 0 0.4rem 0.75rem 0.4rem !important ;
+}
+
+.search-category {
+	display : flex;
+	float : left;
+	align-items : center;
+}
+
+.search-category strong {
+	display : block ruby;
+	color : #5c5e5e;
+	font-size : 1.1rem;
+	padding-right : 0.8rem;
+}
+
+.select-element {
+	width : 10rem !important ;
+}
+
+.search-box {
+	display : flex;
+	float : right !important ;
+}
+
+.search {
+	display : flex !important ;
+	flex-direction : column;
+	align-items : flex-end !important ;
+	border-radius : 3px 3px 3px 3px !important ;
+	height : 2.4rem;
+	width : 20rem;
+	background-color : #f1f3f5;
+	border-color : #f1f3f5;
+	transition : 0.2s;
+} 
+
+.search:focus {
+	background-color : #fff;
+}
+
+span.empty {
+	text-align : center;
+}
+
+.table {
+	background-color : white !important ;
+	margin : 0 !important ;
+}
+
+.card-header-section{
+	background-color: #f5f5f5;
+}
+
+.table-header-section {
+	border : white solid 1px !important ;
+	color: #5e5e5e;
+}
+
+.btn-action {
+	border : none !important ;
+	padding : 0.2rem 0.5rem !important ;
+	border-radius : 2px !important ;
+	box-shadow : none !important ;
+	font-size : 0.85rem !important ;
+	cursor: pointer;
+	font-weight : 600;
+	transition : 0.5s;
+	color : #fff;
+}
+
+.btn-edit {
+	background-color : #007BFF;
+}
+.btn-edit:hover {
+	background-color : #0062cc !important ;
+}
+.btn-secondary {
+	background-color : gray !important ;
+}
+.btn-secondary:hover {
+	background-color : #606360 !important ;
+}
+.btn-danger:hover {
+	background-color : #b0212b !important ;
+}
+
+.btn-modal-close {
+	cursor: pointer;
+	border : none !important ;
+	background-color : gray;
+	color : white;
+	padding : 0.2rem 0.7rem !important ;
+	border-radius : 2px !important ;
+	box-shadow : none !important ;
+	font-size : 0.9rem !important ;
+	font-weight : 600 !important ;
+}
+.btn-modal-close:hover {
+	background-color : #606360;
+	box-shadow : 3px 3px 5px gray !important ;
+	transition : box-shadow 0.2s linear !important ;
+}
+.login-label {
+	margin-bottom : 0.3rem !important ;
+	margin-top : 0.6rem !important ;
+	color : #454444 !important ;
+	font-size : 14px !important ;
+	font-weight : 600 !important ;
+}
+.bold {
+	font-weight : 600;
+}
+
+.page-link {
+	background-color : #fff !important ;
+	box-shadow : none !important ;
+	color : #1dbf73 !important ;
+	cursor : pointer !important ;
+	border : #dee2e6 solid 1px !important ;
+}
+.page-link:hover {
+	background-color : #f0f0f0 !important ;
+}
+.page-item.active .page-link {
+	background-color : #1dbf73 !important ;
+	color : white !important ;
+	border-color : #1dbf73 !important ;
+}
+.page-item.disabled a {
+	color : #212529 !important ;
+}
+
